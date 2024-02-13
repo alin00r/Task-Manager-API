@@ -1,7 +1,7 @@
 ﻿# Task-Manager-API
   
 ## Introduction 🌟
-Welcome to My REST-API! This API is designed to provide a seamless experience for users who love to manage tasks efficiently.
+Secure Blog REST API using NodeJS + Express + JWT + Mongoose
 
 ## Technologies 🚀
 
@@ -62,12 +62,38 @@ Follow these steps to set up your local environment for the Natours app:
       JWT_SECRET=your-json-web-token-secret
 
       ```
+# Endpoints
+## Auth Endpoints
+```POST``` ```/users/signup```
+
+```POST``` ```/users/login```
+
+```POST``` ```/users/logout```
+
+```POST``` ```/users/logoutAll```
+## Users Endpoints
+```GET``` ```/users/me```
+```DELETE``` ```/users/me```
+```PATCH``` ```/users/me```
+```GET``` ```/users/:id/avatar```
+```POST``` ```/upload/me/avatar```
+```DELETE``` ```/upload/me/avatar```
+```GET``` ``` /users/:username```
+## Blog Endpoints
+```POST``` ```/search```
+```POST``` ```/blog```
+```GET``` ```/blogs```
+```GET``` ```/blogs/:id```
+```PATCH``` ```/blogs/:id```
+```DELETE``` ```/blogs/:id```
+
+
 
 # API reference
 
 During API development, I use `Postman` for handling/testing all endpoints.
 
-- Postman collection/documentation is available on this link [click here](https://documenter.getpostman.com/view/28708948/2sA2r3b7CB)
+- Postman collection/documentation is available on this link [click here](https://documenter.getpostman.com/view/28708948/2sA2r53QcQ)
 - Base URL endpoints: `http://127.0.0.1:3000/` or `http://localhost:3000/`
 
 
