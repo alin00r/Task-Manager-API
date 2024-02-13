@@ -35,7 +35,7 @@ Follow these steps to set up your local environment for the Natours app:
 1. **Clone the Repository:**
    Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/alin00r/natours.git
+   git clone https://github.com/alin00r/Task-Manager-API.git
    cd Task-Manager-API
    ```
 2. **Install Dependencies:**
@@ -45,7 +45,7 @@ Follow these steps to set up your local environment for the Natours app:
    ```
 3. **Configure Environment Variables:**
 
-   Before you can run the Natours app, you need to set up your environment variables. These variables store sensitive information required for the app to function properly. Follow these steps to configure your environment variables:
+   Before you can run the Task-Manager-API app, you need to set up your environment variables. These variables store sensitive information required for the app to function properly. Follow these steps to configure your environment variables:
 
    1. **Create a `.env` File:**
       In the root directory of the app, create a file named `.env`.
