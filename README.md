@@ -101,7 +101,7 @@ Follow these steps to set up your local environment for the Natours app:
 
 During API development, I use `Postman` for handling/testing all endpoints.
 
-- Postman collection/documentation is available on this link [click here](https://documenter.getpostman.com/view/28708948/2sA2r53QcQ)
+- Postman collection/documentation is available on this link [click here](https://documenter.getpostman.com/view/28708948/2sA2r3b7CB)
 - Base URL endpoints: `http://127.0.0.1:3000/` or `http://localhost:3000/`
 
 
