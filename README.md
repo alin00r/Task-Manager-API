@@ -1,7 +1,7 @@
 ﻿# Task-Manager-API
   
 ## Introduction 🌟
-Welcome to My app! This application is designed to provide a seamless experience for users who love to manage tasks efficiently.
+Welcome to My REST-API! This API is designed to provide a seamless experience for users who love to manage tasks efficiently.
 
 ## Technologies 🚀
 
