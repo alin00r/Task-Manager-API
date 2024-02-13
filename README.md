@@ -11,11 +11,11 @@ Welcome to My app! This application is designed to provide a seamless experience
 - Mongoose
 - JSON Web Token (JWT)
 - bcrypt
-- Nodemailer
+- resend
 - sharp
 - Multer
 - Jest
-- 
+
 ## Features ✨
 
 - [x] User Authentication: Allow users to sign up and log in.
