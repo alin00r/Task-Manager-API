@@ -1,7 +1,7 @@
 ﻿# Task-Manager-API
   
 ## Introduction 🌟
-Secure Blog REST API using NodeJS + Express + JWT + Mongoose
+Welcome to My REST-API! This API is designed to provide a seamless experience for users who love to manage tasks efficiently.
 
 ## Technologies 🚀
 
@@ -71,22 +71,30 @@ Follow these steps to set up your local environment for the Natours app:
 ```POST``` ```/users/logout```
 
 ```POST``` ```/users/logoutAll```
+
 ## Users Endpoints
 ```GET``` ```/users/me```
-```DELETE``` ```/users/me```
-```PATCH``` ```/users/me```
-```GET``` ```/users/:id/avatar```
-```POST``` ```/upload/me/avatar```
-```DELETE``` ```/upload/me/avatar```
-```GET``` ``` /users/:username```
-## Blog Endpoints
-```POST``` ```/search```
-```POST``` ```/blog```
-```GET``` ```/blogs```
-```GET``` ```/blogs/:id```
-```PATCH``` ```/blogs/:id```
-```DELETE``` ```/blogs/:id```
 
+```DELETE``` ```/users/me```
+
+```PATCH``` ```/users/me```
+
+```GET``` ```/users/:id/avatar```
+
+```POST``` ```/upload/me/avatar```
+
+```DELETE``` ```/upload/me/avatar```
+
+## Task Endpoints
+```POST``` ```/task```
+
+```GET``` ```/tasks```
+
+```GET``` ```/tasks/:id```
+
+```PATCH``` ```/tasks/:id```
+
+```DELETE``` ```/tasks/:id```
 
 
 # API reference
